@@ -1,6 +1,6 @@
 //https://www.hackerrank.com/challenges/a-very-big-sum/problem
 //i don't know how this code works 
-//i had written aVeryBigSum function only.
+//i had written aVeryBigSum function only
 
 #include <bits/stdc++.h>
 
