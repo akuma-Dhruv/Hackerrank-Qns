@@ -6,8 +6,9 @@ using namespace std;
 
 
 int main() {
-    int ar[1000],n;
+    int n;
     cin>>n;
+    int ar[n];
     for (int y=0;y<n;y++)
     {
         cin>>ar[y];
