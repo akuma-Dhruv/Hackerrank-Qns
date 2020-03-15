@@ -30,6 +30,13 @@ z=b.size();
         cout<<b[n];
         n++;
     }
-
+    /*
+    //////////////////////////////////////////or later realised it can be sloved like this
+    char temp;
+    temp=a[0];
+    a[0]=b[0];
+    b[0]=temp;
+    cout<<"\n"<<a<<" "<<b;
+    */
     return 0;
 }
