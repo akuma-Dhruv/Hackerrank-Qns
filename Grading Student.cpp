@@ -15,8 +15,8 @@ string rtrim(const string &);
  * The function accepts INTEGER_ARRAY grades as parameter.
  */
 
-vector<int> gradingStudents(vector<int> grades,int size) {
-    
+vector<int> gradingStudents(vector<int> grades) {
+    int size = grades.size();
     int multiple;
     for(int i=0;i<size;i++)
     {
@@ -54,7 +54,7 @@ int main()
         grades[i] = grades_item;
     }
 
-    vector<int> result = gradingStudents(grades,grades_count);
+    vector<int> result = gradingStudents(grades);
 
     for (int i = 0; i < result.size(); i++) {
         fout << result[i];
